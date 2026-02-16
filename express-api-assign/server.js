@@ -1,0 +1,28 @@
+const express = require("express");
+const cors = require("cors");
+
+
+require("dotenv").config();
+
+
+const app = express();
+
+app.use(cors());
+app.use(express.json());
+
+
+const userRoutes = require("./routes/userRoutes");
+
+app.use("/api/users", userRoutes);
+
+
+// for employee routes
+const employeeRoutes = require("./routes/employeeRoutes"); 
+
+app.use("/api/employees", employeeRoutes)
+
+
+
+app.listen(4000, () => {
+    console.log("Express API running on port 4000");
+});

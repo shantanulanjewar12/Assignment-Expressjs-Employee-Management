@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+
+</head>
+<body>
+
+<div class="container">
+    <h2>Login</h2>
+
+    <form id="loginForm">
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+    </form>
+
+    <a href="register.jsp">Don't have an account? Register</a>
+</div>
+
+
+<script src="js/app.js"></script>
+
+</body>
+</html>

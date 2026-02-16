@@ -12,8 +12,32 @@ This project allows users to register, login, and perform CRUD operations on emp
 
 # Project Structure
 
-project-root/
+Assignment-Expressjs-Employee-Management/
 │
-├── frontend/ # JSP, HTML, CSS, JS files (Tomcat)
-├── backend/ # Express server, routes, controllers, models
+├── UserApp/                     # Frontend (JSP + HTML + CSS + JS)
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── app.js
+│   ├── login.jsp
+│   ├── register.jsp
+│   ├── dashboard.jsp
+│   ├── addEmployee.jsp
+│   └── viewEmployee.jsp
+│
+├── express-api-assign/          # Backend (Node.js + Express)
+│   ├── config/
+│   │   └── db.js
+│   ├── controllers/
+│   │   ├── userController.js
+│   │   └── employeeController.js
+│   ├── models/
+│   │   ├── userModel.js
+│   │   └── employeeModel.js
+│   ├── routes/
+│   │   ├── userRoutes.js
+│   │   └── employeeRoutes.js
+│   ├── server.js
+│   └── package.json
+│
 └── README.md

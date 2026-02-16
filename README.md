@@ -10,11 +10,12 @@ This project allows users to register, login, and perform CRUD operations on emp
 
 ---
 
-# Project Structure
+## 📁 Project Structure
 
+```
 Assignment-Expressjs-Employee-Management/
 │
-├── UserApp/                     # Frontend (JSP + HTML + CSS + JS)
+├── UserApp/                     (Frontend - JSP + HTML + CSS + JS)
 │   ├── css/
 │   │   └── style.css
 │   ├── js/
@@ -25,7 +26,7 @@ Assignment-Expressjs-Employee-Management/
 │   ├── addEmployee.jsp
 │   └── viewEmployee.jsp
 │
-├── express-api-assign/          # Backend (Node.js + Express)
+├── express-api-assign/          (Backend - Node.js + Express)
 │   ├── config/
 │   │   └── db.js
 │   ├── controllers/
@@ -41,3 +42,4 @@ Assignment-Expressjs-Employee-Management/
 │   └── package.json
 │
 └── README.md
+```
